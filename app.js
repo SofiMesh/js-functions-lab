@@ -18,10 +18,19 @@ function maxOfThreeNumbers(x, y, z){
     }
     console.log(maxOfThreeNumbers(3, 5, 8));
     
-console.log(maxOfThreeNumbers(3, 5, 7));
 //3. Define a function, as a function declaration, isCharAVowel that takes a character as an argument and returns true if it is a vowel, false otherwise.
+function isCharAVowel(char) {
+    let vowel = ['a', 'e', 'i', 'o', 'u', 'y']
+    char = char.toLowerCase()
+    return (vowel.includes(char))
+}
+console.log(isCharAVowel('G'));
 
 //4. Define a function, as a function expression, sumArray that takes an array of numbers and returns the sum of those numbers. For example, sumArray([2, 4, 5]); would return 11.
+function sumArray (x, y, z) {
+    return
+}
+console.log(7, 5, 9);
 
 //5. Define a function, as a function declaration, multiplyArray that takes an array of numbers and returns the product those numbers. For example, multiplyArray([2, 4, 5]); would return 40.
 
